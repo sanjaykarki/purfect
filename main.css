@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Work+Sans&display=swap');
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.btn-round {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* navabar section */
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    margin: 0 20px;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+#navbarSupportedContent .btn {
+    /* border-radius: 25px; */
+    padding: 8px 30px;
+}
+
+/* Change navbar styling on scroll */
+
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover, .navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+/* Banner section */
+
+.banner {
+    height: 90vh;
+    min-height: 500px;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.527), rgba(97, 97, 104, 0.527)), url(/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(250, 253, 253);
+}
+
+.banner h2 {
+    color: #ffc107;
+    padding: 25px 0px;
+}
+
+.banner-container {
+    padding-top: 200px;
+}
+
+/* locate section */
+
+/* Review section */
+
+.review-back {
+    height: 250px;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.527), rgba(97, 97, 104, 0.527)), url(/img/cat.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review h2 {
+    color: #fff;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.review-social {
+    padding-top: 115px;
+}
+
+.review-social .btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 8px;
+}
+
+/* testimonials */
+.testimonial h3 {
+    padding-bottom: 20px;
+}
+.testimonial h5 {
+    padding: 40px 0;
+}
+
+/* trial */
+
+.trial p {
+    margin: 50px 80px;
+}
+
+.trial .btn {
+    padding: 10px 30px;
+}
+/* Footer */
+
+.footer-links h4{
+    padding-bottom: 20px;
+}
+.footer-links a {
+    color: #000;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+
+
+.social-media .fa {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: #ffc107;
+    /* padding: 0px; */
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 50%;
+}
+
+/* Change navbar styling on small viewports */
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
